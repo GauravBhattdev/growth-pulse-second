@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+
+/* =========================================
+   TAILWIND THEME
+========================================= */
+
+@theme {
+    --color-primary: #8b3df5;
+    --color-primary-hover: #7630d8;
+
+    --color-theme-page: var(--color-page);
+    --color-theme-surface: var(--color-surface);
+    --color-theme-surface-secondary: var(--color-surface-secondary);
+
+    --color-theme-text: var(--color-text);
+    --color-theme-text-secondary: var(--color-text-secondary);
+    --color-theme-text-muted: var(--color-text-muted);
+
+    --color-theme-border: var(--color-border);
+    --color-theme-border-light: var(--color-border-light);
+}
+
+
+/* =========================================
+   LIGHT THEME
+========================================= */
+
+:root {
+    --color-page: #f8f9fc;
+
+    --color-surface: #ffffff;
+    --color-surface-secondary: #f3f4f6;
+
+    --color-text: #111111;
+    --color-text-secondary: #6b7280;
+    --color-text-muted: #9ca3af;
+
+    --color-border: #e5e7eb;
+    --color-border-light: #d1d5db;
+}
+
+
+/* =========================================
+   DARK THEME
+========================================= */
+
+.dark {
+    --color-page: #151026;
+
+    --color-surface: #171126;
+    --color-surface-secondary: #211a35;
+
+    --color-text: #ffffff;
+    --color-text-secondary: #b6b0c5;
+    --color-text-muted: #81798f;
+
+    --color-border: #302743;
+    --color-border-light: #413653;
+}
+
+
+/* =========================================
+   GLOBAL
+========================================= */
+
+html,
+body,
+#root {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+
+    background: var(--color-page);
+    color: var(--color-text);
+
+    transition:
+        background-color 300ms ease,
+        color 300ms ease;
+}
