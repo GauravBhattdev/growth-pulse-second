@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import {
@@ -36,6 +35,9 @@ import LeadDetails
 
 import Invoice
     from "./pages/Invoice/Invoice";
+
+import CreateInvoice
+    from "./pages/CreateInvoice/CreateInvoice";
 
 import SupportTickets
     from "./pages/SupportTickets/SupportTickets";
@@ -145,6 +147,13 @@ function App() {
                         }
                     />
 
+                    <Route
+                        path="/create-invoice"
+                        element={
+                            <CreateInvoice />
+                        }
+                    />
+
 
                     {/* ========================= */}
                     {/* SUPPORT TICKETS */}
@@ -191,4 +200,3 @@ function App() {
 
 
 export default App;
-
