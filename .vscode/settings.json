@@ -1,5 +1,13 @@
 {
     "tailwindCSS.lint.suggestCanonicalClasses": "ignore",
+    "tailwindCSS.lint.cssConflict": "ignore",
+    "tailwindCSS.lint.invalidApply": "ignore",
+    "tailwindCSS.lint.invalidConfigPath": "ignore",
+    "tailwindCSS.lint.invalidScreen": "ignore",
+    "tailwindCSS.lint.invalidTailwindDirective": "ignore",
+    "tailwindCSS.lint.invalidVariant": "ignore",
+    "tailwindCSS.lint.recommendedVariantOrder": "ignore",
+    "tailwindCSS.lint.unknownAtRules": "ignore",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
